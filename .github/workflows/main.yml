@@ -21,6 +21,6 @@ jobs:
   - name: Step 3 - Test project(s) with Maven
     run: |
      echo TESTING PROJECT 1
-     cd code/hi_low_game
+     cd code/src/main/java/edu/westga/cs3211/hi_low_game
      mvn --batch-mode --update-snapshots clean verify
      cd ../..
