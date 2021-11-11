@@ -26,6 +26,10 @@ public class Main extends Application {
 	 *
 	 * @throws IOException
 	 */
+	 
+	 
+	 
+	 
 	@Override
 	public void start(Stage primaryStage) throws IOException {
 		Parent parent = FXMLLoader.load(getClass().getResource(Main.GUI_RESOURCE));
